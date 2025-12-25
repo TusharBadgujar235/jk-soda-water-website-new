@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JK Soda Water - Premium Cold Drinks & Beverages">
+    <title>JK Soda Water - Premium Cold Drinks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-mode">
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <img src="images/jk-logo.png" alt="JK Soda Water Logo" class="logo-img">
+                <h1>JK Soda Water</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link" data-en="Home" data-mr="होम">Home</a></li>
+                <li><a href="#products" class="nav-link" data-en="Flavours" data-mr="स्वाद">Flavours</a></li>
+                <li><a href="#order" class="nav-link" data-en="Order" data-mr="ऑर्डर">Order</a></li>
+                <li><a href="#about" class="nav-link" data-en="About" data-mr="आमच्या बद्दल">About</a></li>
+                <li><a href="#contact" class="nav-link" data-en="Contact" data-mr="संपर्क">Contact</a></li>
+            </ul>
+            <div class="controls">
+                <button class="theme-toggle" id="themeToggle" title="Toggle Dark Mode">🌙</button>
+                <button class="language-toggle" id="langToggle" title="Switch Language">EN</button>
+                <button class="admin-toggle" id="adminToggle" title="Admin Panel">👤</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-badge-corner" data-en="Established 1994" data-mr="स्थापित 1994">Established 1994</div>
+        <div class="hero-background">
+            <div class="bottle-decoration bottle-left">🍾</div>
+            <div class="bottle-decoration bottle-right">🥤</div>
+            <div class="glass-decoration glass-left">🥛</div>
+            <div class="glass-decoration glass-right">🍹</div>
+        </div>
+        <div class="hero-content">
+            <div>
+                <img src="images/chamunda-mata.jpg" alt="Chamunda Mata" class="chamunda-mata-img">
+                <div class="hero-blessing" data-en="CHAMUNDA MATA PRASANNA" data-mr="चामुंडा माता प्रसन्न">CHAMUNDA MATA PRASANNA</div>
+            </div>
+            <h1 class="hero-title cinematic-title" data-en="JK SODA WATER" data-mr="जेके सोडा वॉटर "><span class="cinematic-char" style="--char-index: 0;">J</span><span class="cinematic-char" style="--char-index: 1;">K</span><span class="cinematic-char" style="--char-index: 2;"> </span><span class="cinematic-char" style="--char-index: 3;">S</span><span class="cinematic-char" style="--char-index: 4;">O</span><span class="cinematic-char" style="--char-index: 5;">D</span><span class="cinematic-char" style="--char-index: 6;">A</span><span class="cinematic-char" style="--char-index: 7;"> </span><span class="cinematic-char" style="--char-index: 8;">W</span><span class="cinematic-char" style="--char-index: 9;">A</span><span class="cinematic-char" style="--char-index: 10;">T</span><span class="cinematic-char" style="--char-index: 11;">E</span><span class="cinematic-char" style="--char-index: 12;">R</span></h1>
+            <p class="hero-subtitle" data-en="Sparkling Purity in Every Sip. Quality is our priority. Experience the perfect blend of fizz and flavor with JK Soda Water's premium range." data-mr="प्रत्येक घूंटीमध्ये चमकदार शुद्धता. गुणवत्ता आमची प्राथमिकता आहे. JK सोडा वाटरच्या प्रिमियम श्रेणीसह फिজ आणि स्वादाचा परिपूर्ण मिश्रण अनुभवा.">Sparkling Purity in Every Sip. Quality is our priority. Experience the perfect blend of fizz and flavor with JK Soda Water's premium range.</p>
+            <div class="hero-motto" data-en="Quality is Our Priority" data-mr="गुणवत्ता आमची प्राथमिकता आहे">Quality is Our Priority</div>            <button class="cta-button" id="heroOrderBtn" data-en="Order Now" data-mr="आता ऑर्डर करा">Order Now</button>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title" data-en="Our Flavours" data-mr="आमचे स्वाद">Our Flavours</h2>
+            <p class="section-subtitle" data-en="Discover our refreshing range of cold drinks" data-mr="आमच्या ताजेपणाने भरलेल्या कोल्ड ड्रिंक्सची विस्तृत श्रेणी शोधा">Discover our refreshing range of cold drinks</p>
+            
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image"><img src="images/limbu-soda.jpg" alt="Limbu Soda"></div>
+                    <h3 data-en="Limbu Soda" data-mr="लिंबू सोडा">Limbu Soda</h3>
+                    <p data-en="Refreshing lime flavored soda water with a perfect tangy taste. Best served chilled." data-mr="लिंबू फ्लेवर असलेले सोडा वाटर ज्याचा स्वाद परिपूर्ण आणि खमंग असतो. थंड सेवन करायला उत्तम.">Refreshing lime flavored soda water with a perfect tangy taste. Best served chilled.</p>
+                    <span class="price">₹20</span>
+                    <button class="product-btn" data-en="Order Now" data-mr="आता ऑर्डर करा">Order Now</button>
+                    <button class="rating-btn" onclick="window.openRatingModal('Limbu Soda')" data-en="⭐ Give Rating" data-mr="⭐ रेटिंग द्या">⭐ Give Rating</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="images/jira-soda.jpg" alt="Jira Soda"></div>
+                    <h3 data-en="Jira Soda" data-mr="जिरा सोडा">Jira Soda</h3>
+                    <p data-en="Traditional cumin-flavored soda water with authentic taste and aroma." data-mr="परंपरागत जिरा फ्लेवर असलेले सोडा वाटर अचूक स्वाद आणि सुगंधी सहित.">Traditional cumin-flavored soda water with authentic taste and aroma.</p>
+                    <span class="price">₹20</span>
+                    <button class="product-btn" data-en="Order Now" data-mr="आता ऑर्डर करा">Order Now</button>
+                    <button class="rating-btn" onclick="window.openRatingModal('Jira Soda')" data-en="⭐ Give Rating" data-mr="⭐ रेटिंग द्या">⭐ Give Rating</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="images/orange-soda.jpg" alt="Orange Soda"></div>
+                    <h3 data-en="Orange Soda" data-mr="ऑरेंज सोडा">Orange Soda</h3>
+                    <p data-en="Citrusy orange flavored soda water with natural sweetness and carbonation." data-mr="संत्रीच्या स्वादाचे सोडा वाटर नैसर्गिक मिठास आणि कार्बोनेशन सहित.">Citrusy orange flavored soda water with natural sweetness and carbonation.</p>
+                    <span class="price">₹20</span>
+                    <button class="product-btn" data-en="Order Now" data-mr="आता ऑर्डर करा">Order Now</button>
+                    <button class="rating-btn" onclick="window.openRatingModal('Orange Soda')" data-en="⭐ Give Rating" data-mr="⭐ रेटिंग द्या">⭐ Give Rating</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="images/kalakhatta-soda.jpg" alt="Kalakhatta Soda"></div>
+                    <h3 data-en="Kalakhatta Soda" data-mr="कलाखट्टा  सोडा">Kalakhatta Soda</h3>
+                    <p data-en="Unique kalakhatta berry flavored soda with distinctive taste and color." data-mr="अद्वितीय कलाखट्टा बेरी फ्लेवर असलेले सोडा अनन्य स्वाद आणि रंग सहित.">Unique kalakhatta berry flavored soda with distinctive taste and color.</p>
+                    <span class="price">₹20</span>
+                    <button class="product-btn" data-en="Order Now" data-mr="आता ऑर्डर करा">Order Now</button>
+                    <button class="rating-btn" onclick="window.openRatingModal('Kalakhatta Soda')" data-en="⭐ Give Rating" data-mr="⭐ रेटिंग द्या">⭐ Give Rating</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="images/jamfal-soda.jpg" alt="Jamfal Soda"></div>
+                    <h3 data-en="Jamfal Soda" data-mr="जामफळ सोडा">Jamfal Soda</h3>
+                    <p data-en="Jamfal fruit flavored soda water with natural sweetness and refreshment." data-mr="जामफळ फ्रुट फ्लेवर असलेले सोडा वाटर नैसर्गिक मिठास आणि ताजेपणा सहित.">Jamfal fruit flavored soda water with natural sweetness and refreshment.</p>
+                    <span class="price">₹20</span>
+                    <button class="product-btn" data-en="Order Now" data-mr="आता ऑर्डर करा">Order Now</button>
+                    <button class="rating-btn" onclick="window.openRatingModal('Jamfal Soda')" data-en="⭐ Give Rating" data-mr="⭐ रेटिंग द्या">⭐ Give Rating</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="images/nariyal-soda.jpg" alt="Nariyal Soda"></div>
+                    <h3 data-en="Nariyal Soda" data-mr="नारियल सोडा">Nariyal Soda</h3>
+                    <p data-en="Creamy coconut flavored soda water for a tropical refreshing experience." data-mr="क्रीमी नारियल फ्लेवर असलेले सोडा वाटर उष्ण कटिबंधीय ताजेपणाचा अनुभव साठी.">Creamy coconut flavored soda water for a tropical refreshing experience.</p>
+                    <span class="price">₹20</span>
+                    <button class="product-btn" data-en="Order Now" data-mr="आता ऑर्डर करा">Order Now</button>
+                    <button class="rating-btn" onclick="window.openRatingModal('Nariyal Soda')" data-en="⭐ Give Rating" data-mr="⭐ रेटिंग द्या">⭐ Give Rating</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="images/mint-mojito.jpg" alt="Mint Mojito"></div>
+                    <h3 data-en="Mint Mojito" data-mr="मिंट मोजिटो">Mint Mojito</h3>
+                    <p data-en="Cool refreshing mint mojito flavored soda water with herbal notes." data-mr="शीतल ताजेस्वास्य्य मिंट मोजिटो फ्लेवर असलेले सोडा वाटर औषधी नोट्स सहित.">Cool refreshing mint mojito flavored soda water with herbal notes.</p>
+                    <span class="price">₹20</span>
+                    <button class="product-btn" data-en="Order Now" data-mr="आता ऑर्डर करा">Order Now</button>
+                    <button class="rating-btn" onclick="window.openRatingModal('Mint Mojito')" data-en="⭐ Give Rating" data-mr="⭐ रेटिंग द्या">⭐ Give Rating</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="images/blueberry-soda.jpg" alt="Blue Berry Soda"></div>
+                    <h3 data-en="Blue Berry Soda" data-mr="ब्लूबेरी सोडा">Blue Berry Soda</h3>
+                    <p data-en="Delicious blueberry flavored soda water with antioxidant richness." data-mr="स्वादिष्ट ब्लूबेरी फ्लेवर असलेले सोडा वाटर अँटीऑक्सिडंट समृद्धी सहित.">Delicious blueberry flavored soda water with antioxidant richness.</p>
+                    <span class="price">₹20</span>
+                    <button class="product-btn" data-en="Order Now" data-mr="आता ऑर्डर करा">Order Now</button>
+                    <button class="rating-btn" onclick="window.openRatingModal('Blue Berry Soda')" data-en="⭐ Give Rating" data-mr="⭐ रेटिंग द्या">⭐ Give Rating</button>
+                </div>
+
+                <div class="product-card fuljar-special">
+                    <div class="product-image"><img src="images/fuljar-soda.jpg" alt="Fuljar Soda"></div>
+                    <h3 data-en="Fuljar Soda" data-mr="फुलजार सोडा">Fuljar Soda</h3>
+                    <p data-en="Premium specialty soda water with exclusive flavor and sparkling taste." data-mr="प्रिमियम विशेष सोडा वाटर विशेष फ्लेवर आणि चमकदार स्वाद सहित.">Premium specialty soda water with exclusive flavor and sparkling taste.</p>
+                    <span class="price">₹25</span>
+                    <button class="product-btn" data-en="Order Now" data-mr="आता ऑर्डर करा">Order Now</button>
+                    <button class="rating-btn" onclick="window.openRatingModal('Fuljar Soda')" data-en="⭐ Give Rating" data-mr="⭐ रेटिंग द्या">⭐ Give Rating</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="images/limbu-sharbat.jpg" alt="Limbu Sharbat"></div>
+                    <h3 data-en="Limbu Sharbat" data-mr="लिंबू शरबत">Limbu Sharbat</h3>
+                    <p data-en="Traditional sweet lime syrup drink with refreshing taste. Perfect cooling drink for summer." data-mr="परंपरागत गोड लिंबू सिरप पेय ताजेस्वास्थ्य स्वादाचा. उन्हाळ्यासाठी परिपूर्ण कूलिंग पेय.">Traditional sweet lime syrup drink with refreshing taste. Perfect cooling drink for summer.</p>
+                    <span class="price">₹20</span>
+                    <button class="product-btn" data-en="Order Now" data-mr="आता ऑर्डर करा">Order Now</button>
+                    <button class="rating-btn" onclick="window.openRatingModal('Limbu Sharbat')" data-en="⭐ Give Rating" data-mr="⭐ रेटिंग द्या">⭐ Give Rating</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="images/orange-sharbat.jpg" alt="Orange Sharbat"></div>
+                    <h3 data-en="Orange Sharbat" data-mr="ऑरेंज  शरबत">Orange Sharbat</h3>
+                    <p data-en="Sweet orange syrup drink with natural citrus flavor and nutritious value." data-mr="गोड संत्रीचा सिरप पेय नैसर्गिक सायट्रस फ्लेवर आणि पोषणमूल्य सहित.">Sweet orange syrup drink with natural citrus flavor and nutritious value.</p>
+                    <span class="price">₹20</span>
+                    <button class="product-btn" data-en="Order Now" data-mr="आता ऑर्डर करा">Order Now</button>
+                    <button class="rating-btn" onclick="window.openRatingModal('Orange Sharbat')" data-en="⭐ Give Rating" data-mr="⭐ रेटिंग द्या">⭐ Give Rating</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="images/pineapple-soda.jpg" alt="Pineapple Sharbat"></div>
+                    <h3 data-en="Pineapple Sharbat" data-mr="पाईनअॅपल  शरबत">Pineapple Sharbat</h3>
+                    <p data-en="Tropical pineapple syrup drink with exotic taste and tropical refreshment." data-mr="उष्ण कटिबंधीय अनारस सिरप पेय विदेशी स्वाद आणि उष्ण कटिबंधीय ताजेपणा सहित.">Tropical pineapple syrup drink with exotic taste and tropical refreshment.</p>
+                    <span class="price">₹20</span>
+                    <button class="product-btn" data-en="Order Now" data-mr="आता ऑर्डर करा">Order Now</button>
+                    <button class="rating-btn" onclick="window.openRatingModal('Pineapple Sharbat')" data-en="⭐ Give Rating" data-mr="⭐ रेटिंग द्या">⭐ Give Rating</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="images/limbu-mix-soda.jpg" alt="Limbu Mix Soda"></div>
+                    <h3 data-en="Limbu Mix Soda" data-mr="लिंबू मिक्स सोडा">Limbu Mix Soda</h3>
+                    <p data-en="Blend of lime and mixed citrus flavors with carbonation for ultimate refreshment." data-mr="लिंबू आणि मिश्रित सायट्रस फ्लेवर्स यांचा मिश्रण कार्बोनेशन सहित परम ताजेपणासाठी.">Blend of lime and mixed citrus flavors with carbonation for ultimate refreshment.</p>
+                    <span class="price">₹20</span>
+                    <button class="product-btn" data-en="Order Now" data-mr="आता ऑर्डर करा">Order Now</button>
+                    <button class="rating-btn" onclick="window.openRatingModal('Limbu Mix Soda')" data-en="⭐ Give Rating" data-mr="⭐ रेटिंग द्या">⭐ Give Rating</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="images/pineapple-soda.jpg" alt="Pineapple Soda"></div>
+                    <h3 data-en="Pineapple Soda" data-mr="पाईनअॅपल">Pineapple Soda</h3>
+                    <p data-en="Carbonated pineapple flavored soda water with tropical sweet taste." data-mr="कार्बोनेटेड अनारस फ्लेवर असलेले सोडा वाटर उष्ण कटिबंधीय मिठास स्वादाचे.">Carbonated pineapple flavored soda water with tropical sweet taste.</p>
+                    <span class="price">₹20</span>
+                    <button class="product-btn" data-en="Order Now" data-mr="आता ऑर्डर करा">Order Now</button>
+                    <button class="rating-btn" onclick="window.openRatingModal('Pineapple Soda')" data-en="⭐ Give Rating" data-mr="⭐ रेटिंग द्या">⭐ Give Rating</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image"><img src="images/masala-soda.jpg" alt="Masala Soda"></div>
+                    <h3 data-en="Masala Soda" data-mr="मसाला सोडा">Masala Soda</h3>
+                    <p data-en="Spiced soda water with unique Indian masala blend and distinctive taste." data-mr="मसाला सोडा वाटर अद्वितीय भारतीय मसाला मिश्रण आणि विशिष्ट स्वादाचे.">Spiced soda water with unique Indian masala blend and distinctive taste.</p>
+                    <span class="price">₹20</span>
+                    <button class="product-btn" data-en="Order Now" data-mr="आता ऑर्डर करा">Order Now</button>
+                    <button class="rating-btn" onclick="window.openRatingModal('Masala Soda')" data-en="⭐ Give Rating" data-mr="⭐ रेटिंग द्या">⭐ Give Rating</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 data-en="About JK Soda Water" data-mr="JK सोडा वाटर बद्दल">About JK Soda Water</h2>
+                    <p data-en="Since our establishment, JK Soda Water has been committed to providing the highest quality cold drinks and beverages to our valued customers. We use only the finest ingredients and state-of-the-art production techniques to ensure every bottle delivers exceptional taste and quality." data-mr="आमच्या स्थापनेपासून, JK सोडा वाटर आमच्या मूल्यवान ग्राहकांना सर्वोच्च गुणवत्तेचे कोल्ड ड्रिंक्स आणि पेय पदार्थ प्रदान करण्यासाठी प्रतिबद्ध आहे. प्रत्येक बाटली असाधारण स्वाद आणि गुणवत्ता प्रदान करते हे सुनिश्चित करण्यासाठी आम्ही केवळ सर्वोत्तम घटकांचा आणि अत्याधुनिक उत्पादन तंत्र वापरतो.">Since our establishment, JK Soda Water has been committed to providing the highest quality cold drinks and beverages to our valued customers. We use only the finest ingredients and state-of-the-art production techniques to ensure every bottle delivers exceptional taste and quality.</p>
+                    
+                    <div class="features">
+                        <div class="feature">
+                            <span class="feature-icon">✓</span>
+                            <h4 data-en="100% Pure Ingredients" data-mr="100% शुद्ध घटक">100% Pure Ingredients</h4>
+                            <p data-en="No artificial preservatives or harmful additives" data-mr="कृत्रिम संरक्षक किंवा हानिकारक योजकांशिवाय">No artificial preservatives or harmful additives</p>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">✓</span>
+                            <h4 data-en="Perfect Carbonation" data-mr="परिपूर्ण कार्बोनेशन">Perfect Carbonation</h4>
+                            <p data-en="Precisely balanced for optimal freshness and taste" data-mr="सर्वोत्तम ताजेपणा आणि स्वादासाठी अचूकपणे संतुलित">Precisely balanced for optimal freshness and taste</p>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">✓</span>
+                            <h4 data-en="Quick Delivery" data-mr="द्रुत वितरण">Quick Delivery</h4>
+                            <p data-en="Fresh products delivered to your doorstep within 24 hours" data-mr="ताजे उत्पादन 24 तासांमध्ये आपल्या दरवाजावर वितरित केले">Fresh products delivered to your doorstep within 24 hours</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-us">
+        <div class="container">
+            <h2 data-en="Why Choose JK Soda Water?" data-mr="JK सोडा वाटर का निवडा?">Why Choose JK Soda Water?</h2>
+            <div class="reasons-grid">
+                <div class="reason-card">
+                    <div class="reason-icon">🌟</div>
+                    <h3 data-en="Premium Quality" data-mr="प्रिमियम गुणवत्ता">Premium Quality</h3>
+                    <p data-en="Handcrafted with care using premium ingredients" data-mr="प्रिमियम घटकांचा वापर करून काळजीने हातून बनवलेले">Handcrafted with care using premium ingredients</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-icon">🏆</div>
+                    <h3 data-en="Award Winning" data-mr="पुरस्कार विजेता">Award Winning</h3>
+                    <p data-en="Recognized for excellence and taste" data-mr="उत्कृष्टता आणि स्वादासाठी मान्यता प्राप्त">Recognized for excellence and taste</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-icon">💰</div>
+                    <h3 data-en="Best Prices" data-mr="सर्वोत्तम किंमत">Best Prices</h3>
+                    <p data-en="Competitive pricing without compromising quality" data-mr="गुणवत्तामध्ये तडजोड न करता प्रतिस्पर्धी किंमत">Competitive pricing without compromising quality</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-icon">📦</div>
+                    <h3 data-en="Fast Delivery" data-mr="द्रुत वितरण">Fast Delivery</h3>
+                    <p data-en="Quick and reliable delivery service" data-mr="द्रुत आणि विश्वसनीय वितरण सेवा">Quick and reliable delivery service</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews Section -->
+    <section class="reviews">
+        <div class="container">
+            <h2 class="section-title" data-en="Customer Reviews & Ratings" data-mr="ग्राहक समीक्षा आणि रेटिंग">Customer Reviews & Ratings</h2>
+            <p class="section-subtitle" data-en="What our customers say about us" data-mr="आमच्या ग्राहकांचे विचार">What our customers say about us</p>
+            
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text" data-en="Best soda water in the city! Fresh taste and excellent quality. Highly recommended!" data-mr="शहरातील सर्वश्रेष्ठ सोडा वाटर! ताजे स्वाद आणि उत्कृष्ट गुणवत्ता. अत्यंत शिफारस केली!">Best soda water in the city! Fresh taste and excellent quality. Highly recommended!</p>
+                    <h4 data-en="Rajesh Kumar" data-mr="राजेश कुमार">Rajesh Kumar</h4>
+                    <span class="review-product" data-en="Limbu Soda" data-mr="लिंबू सोडा">Limbu Soda</span>
+                </div>
+
+                <div class="review-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text" data-en="Amazing taste! I've been a loyal customer for 5 years. Never disappointed!" data-mr="अद्भुत स्वाद! मी 5 वर्षे वफादार ग्राहक आहे. कधीही निराश झालो नाही!">Amazing taste! I've been a loyal customer for 5 years. Never disappointed!</p>
+                    <h4 data-en="Priya Sharma" data-mr="प्रिया शर्मा">Priya Sharma</h4>
+                    <span class="review-product" data-en="Mint Mojito" data-mr="मिंट मोजिटो">Mint Mojito</span>
+                </div>
+
+                <div class="review-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text" data-en="Perfect for hot summer days. Love the refreshing taste and quick delivery!" data-mr="गरम गर्मीच्या दिवसांसाठी परिपूर्ण. ताजेस्वास्य्य स्वाद आणि द्रुत वितरणाचे आनंद!">Perfect for hot summer days. Love the refreshing taste and quick delivery!</p>
+                    <h4 data-en="Akshay Patel" data-mr="अक्षय पटेल">Akshay Patel</h4>
+                    <span class="review-product" data-en="Orange Soda" data-mr="संत्री सोडा">Orange Soda</span>
+                </div>
+
+                <div class="review-card">
+                    <div class="stars">⭐⭐⭐⭐</div>
+                    <p class="review-text" data-en="Great products and friendly customer service. Will definitely order again!" data-mr="उत्तम उत्पादन आणि मैत्रीपूर्ण ग्राहक सेवा. निश्चितपणे पुन्हा ऑर्डर करब!">Great products and friendly customer service. Will definitely order again!</p>
+                    <h4 data-en="Sneha Desai" data-mr="स्नेहा देसाई">Sneha Desai</h4>
+                    <span class="review-product" data-en="Jira Soda" data-mr="जिरा सोडा">Jira Soda</span>
+                </div>
+
+                <div class="review-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text" data-en="Been using for years. The taste is consistent and quality never compromised!" data-mr="वर्षेभरी वापरत आहे. स्वाद सुसंगत आहे आणि गुणवत्ता कधीही तडजोड केली जात नाही!">Been using for years. The taste is consistent and quality never compromised!</p>
+                    <h4 data-en="Vikram Singh" data-mr="विक्रम सिंह">Vikram Singh</h4>
+                    <span class="review-product" data-en="Blue Berry Soda" data-mr="ब्लू बेरी सोडा">Blue Berry Soda</span>
+                </div>
+
+                <div class="review-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text" data-en="The Fuljar Soda is premium quality! Worth every rupee spent. Excellent taste!" data-mr="फुलझार सोडा प्रिमियम गुणवत्तेचा आहे! खर्च केलेले प्रत्येक रुपये योग्य आहे. उत्कृष्ट स्वाद!">The Fuljar Soda is premium quality! Worth every rupee spent. Excellent taste!</p>
+                    <h4 data-en="Anjali Gupta" data-mr="अंजली गुप्ता">Anjali Gupta</h4>
+                    <span class="review-product" data-en="Fuljar Soda" data-mr="फुलझार सोडा">Fuljar Soda</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="our-story">
+        <div class="container">
+            <div class="story-content">
+                <div class="story-text">
+                    <h2 data-en="Our Story" data-mr="आमची माहिती ">Our Story</h2>
+                    <p data-en="JK Soda Water was founded in 1994 with a simple mission: to provide the highest quality cold drinks to families across the region. What started as a small local operation has grown into a trusted brand known for consistency, quality, and taste." data-mr="JK सोडा वाटर 1994 मध्ये एका सोप्या मिशन सह स्थापन करण्यात आले: संपूर्ण क्षेत्रातील कुटुंबांना सर्वोच्च गुणवत्तेचे कोल्ड ड्रिंक्स प्रदान करणे. जे एक लहान स्थानिक ऑपरेशन म्हणून सुरू झाले ते सुसंगतता, गुणवत्ता आणि स्वादासाठी ज्ञात असलेल्या विश्वसनीय ब्रँडमध्ये विकसित झाले आहे.">JK Soda Water was founded in 1994 with a simple mission: to provide the highest quality cold drinks to families across the region. What started as a small local operation has grown into a trusted brand known for consistency, quality, and taste.</p>
+                    
+                    <p data-en="For over 30 years, we have maintained our commitment to excellence. We believe that quality is not just about the product, but about the experience we provide to every customer. Our secret lies in using only the finest ingredients, maintaining strict quality control, and listening to our customers' needs." data-mr="३० वर्षांपेक्षा जास्त काळ, आम्ही उत्कृष्टतेच्या प्रतिबद्धतेचे पालन केले आहे. आमचा विश्वास आहे की गुणवत्ता केवळ उत्पादनाबद्दल नाही, तर प्रत्येक ग्राहकांना आम्ही प्रदान करतो अशा अनुभवाबद्दल आहे. आमचा रहस्य केवळ सर्वोत्तम घटकांचा वापर करणे, कठोर गुणवत्ता नियंत्रण राखणे आणि आमच्या ग्राहकांच्या गरजा ऐकणे या गोष्टीमध्ये निहित आहे.">For over 30 years, we have maintained our commitment to excellence. We believe that quality is not just about the product, but about the experience we provide to every customer. Our secret lies in using only the finest ingredients, maintaining strict quality control, and listening to our customers' needs.</p>
+                    
+                    <p data-en="Every bottle of JK Soda Water is a testament to our dedication. We're proud to be part of your family celebrations, your refreshing summers, and your special moments. Thank you for making us your preferred choice!" data-mr="JK सोडा वाटरची प्रत्येक बाटली आमच्या समर्पणाचा पुरावा आहे. आम्ही आपल्या कुटुंब उद्‌यापनांचा, आपल्या ताजेस्वास्य्य उन्हाळ्यांचा आणि आपल्या विशेष क्षणांचा भाग असल्याचे गर्वित आहे. आपल्या आपली पसंदीची निवड बनवल्याबद्दल धन्यवाद!">Every bottle of JK Soda Water is a testament to our dedication. We're proud to be part of your family celebrations, your refreshing summers, and your special moments. Thank you for making us your preferred choice!</p>
+                </div>
+                <div class="story-stats">
+                    <div class="stat-box">
+                        <h3 class="stat-number">30+</h3>
+                        <p class="stat-label" data-en="Years of Excellence" data-mr="उत्कृष्टतेचे वर्ष">Years of Excellence</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3 class="stat-number">10</h3>
+                        <p class="stat-label" data-en="Unique Flavors" data-mr="अद्वितीय स्वाद">Unique Flavors</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3 class="stat-number">50K+</h3>
+                        <p class="stat-label" data-en="Happy Customers" data-mr="खुश ग्राहक">Happy Customers</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3 class="stat-number">100%</h3>
+                        <p class="stat-label" data-en="Quality Assured" data-mr="गुणवत्ता खातरी">Quality Assured</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <div class="container">
+            <h2 class="section-title" data-en="Our Shop & Products" data-mr="आमचे दुकान आणि उत्पादने">Our Shop & Products</h2>
+            <p class="section-subtitle" data-en="Take a look at our store, production, and quality standards" data-mr="आमचे दोकान, उत्पादन आणि गुणवत्ता मानदंड पहा">Take a look at our store, production, and quality standards</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-image" style="background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%); display: flex; align-items: center; justify-content: center; color: white; font-size: 4rem;">🏪</div>
+                    <h3 data-en="Our Store" data-mr="आमचे दुकान">Our Store</h3>
+                    <p data-en="Visit our modern shop with trained staff and wide variety of products" data-mr="आधुनिक दुकान पहा प्रशिक्षित कर्मचारी आणि उत्पादनांची विस्तृत श्रेणी सहित">Visit our modern shop with trained staff and wide variety of products</p>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="gallery-image" style="background: linear-gradient(135deg, #0891b2 0%, #06b6d4 100%); display: flex; align-items: center; justify-content: center; color: white; font-size: 4rem;">🏭</div>
+                    <h3 data-en="Production Facility" data-mr="उत्पादन सुविधा">Production Facility</h3>
+                    <p data-en="State-of-the-art manufacturing facility with modern equipment" data-mr="अत्याधुनिक उपकरणे सहित अत्याधुनिक विनिर्माण सुविधा">State-of-the-art manufacturing facility with modern equipment</p>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="gallery-image" style="background: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%); display: flex; align-items: center; justify-content: center; color: white; font-size: 4rem;">🍾</div>
+                    <h3 data-en="Bottle Range" data-mr="बाटली श्रेणी">Bottle Range</h3>
+                    <p data-en="Wide variety of bottle sizes and packaging options available" data-mr="विभिन्न आकार आणि पॅकेजिंग पर्याय उपलब्ध">Wide variety of bottle sizes and packaging options available</p>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="gallery-image" style="background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%); display: flex; align-items: center; justify-content: center; color: white; font-size: 4rem;">✅</div>
+                    <h3 data-en="Quality Testing" data-mr="गुणवत्ता परीक्षण">Quality Testing</h3>
+                    <p data-en="Rigorous testing at every stage of production" data-mr="उत्पादनाच्या प्रत्येक चरणात कठोर परीक्षण">Rigorous testing at every stage of production</p>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="gallery-image" style="background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%); display: flex; align-items: center; justify-content: center; color: white; font-size: 4rem;">🚚</div>
+                    <h3 data-en="Fast Delivery" data-mr="द्रुत वितरण">Fast Delivery</h3>
+                    <p data-en="Efficient logistics and same-day delivery options" data-mr="कुशल लॉजिस्टिक्स आणि समान दिवस वितरण पर्याय">Efficient logistics and same-day delivery options</p>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="gallery-image" style="background: linear-gradient(135deg, #ec4899 0%, #db2777 100%); display: flex; align-items: center; justify-content: center; color: white; font-size: 4rem;">🎉</div>
+                    <h3 data-en="Customer Events" data-mr="ग्राहक कार्यक्रम">Customer Events</h3>
+                    <p data-en="Regular events and special offers for our valued customers" data-mr="नियमित कार्यक्रम आणि आमच्या मूल्यवान ग्राहकांसाठी विशेष ऑफर">Regular events and special offers for our valued customers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Section -->
+    <section id="order" class="order">
+        <div class="container">
+            <h2 class="section-title" data-en="Place Your Order" data-mr="आपली ऑर्डर द्या ">Place Your Order</h2>
+            <p class="section-subtitle" data-en="Select your favorite flavour and place an order today!" data-mr="आपला पसंदीचा स्वाद निवडा आणि ऑर्डर द्या  !">Select your favorite flavour and place an order today!</p>
+            
+            <div class="order-content">
+                <form class="order-form">
+                    <div class="form-group">
+                        <label data-en="Your Name" data-mr="आपले नाव">Your Name</label>
+                        <input type="text" id="customerName" placeholder="Enter your name" data-en-placeholder="Enter your name" data-mr-placeholder="आपले नाव प्रविष्ट करा" required>
+                    </div>
+
+                    <div class="order-items-section">
+                        <h3 data-en="Select Products" data-mr="उत्पादने निवडा">Select Products</h3>
+                        
+                        <div class="form-group">
+                            <label data-en="Choose Flavour" data-mr="स्वाद निवडा">Choose Flavour</label>
+                            <input type="text" id="productSelect" list="productList" placeholder="Type flavour name..." data-en-placeholder="Type flavour name..." data-mr-placeholder="स्वाद नाव टाइप करा...">
+                            <datalist id="productList">
+                                <option value="Limbu Soda">Limbu Soda</option>
+                                <option value="Jira Soda">Jira Soda</option>
+                                <option value="Orange Soda">Orange Soda</option>
+                                <option value="Kalakhatta Soda">Kalakhatta Soda</option>
+                                <option value="Jamfal Soda">Jamfal Soda</option>
+                                <option value="Nariyal Soda">Nariyal Soda</option>
+                                <option value="Mint Mojito">Mint Mojito</option>
+                                <option value="Blue Berry Soda">Blue Berry Soda</option>
+                                <option value="Fuljar Soda">Fuljar Soda</option>
+                                <option value="Limbu Sharbat">Limbu Sharbat</option>
+                                <option value="Orange Sharbat">Orange Sharbat</option>
+                                <option value="Pineapple Sharbat">Pineapple Sharbat</option>
+                                <option value="Limbu Mix Soda">Limbu Mix Soda</option>
+                                <option value="Pineapple Soda">Pineapple Soda</option>
+                                <option value="Masala Soda">Masala Soda</option>
+                            </datalist>
+                        </div>
+
+                        <div class="form-group">
+                            <label data-en="How Many?" data-mr="किती?">How Many?</label>
+                            <div class="quick-qty-buttons">
+                                <button type="button" class="qty-preset" data-qty="1">1</button>
+                                <button type="button" class="qty-preset" data-qty="2">2</button>
+                                <button type="button" class="qty-preset" data-qty="3">3</button>
+                                <button type="button" class="qty-preset" data-qty="5">5</button>
+                                <button type="button" class="qty-preset" data-qty="10">10</button>
+                            </div>
+                            <input type="hidden" id="quantity" value="1">
+                        </div>
+
+                        <button type="button" id="addItemBtn" class="add-item-btn" data-en="✓ Add to Order" data-mr="✓ ऑर्डरमध्ये जोडा">✓ Add to Order</button>
+                    </div>
+
+                    <div id="orderItemsList" class="order-items-list-simple"></div>
+
+                    <div class="order-final-summary">
+                        <div class="summary-total">
+                            <span data-en="Total:" data-mr="कुल:">Total:</span>
+                            <span id="summaryTotal">₹0</span>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="submit-order-btn" data-en="✓ Confirm Order" data-mr="✓ ऑर्डर निश्चित करा">✓ Confirm Order</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 data-en="Get In Touch" data-mr="संपर्कात रहा">Get In Touch</h2>
+            <p class="contact-subtitle" data-en="Have questions? We'd love to hear from you!" data-mr="प्रश्न आहेत? आम्हाला आपल्या मतांचा आनন्द असेल!">Have questions? We'd love to hear from you!</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3>📍 <span data-en="Address" data-mr="पता">Address</span></h3>
+                        <p>JK Soda Water<br>Near Bafna Petrol Pump<br>Fagane, Dhule</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>📞 <span data-en="Phone" data-mr="फोन">Phone</span></h3>
+                        <p>+91 XXXXX XXXXX<br>+91 XXXXX XXXXX</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>✉️ <span data-en="Email" data-mr="ईमेल">Email</span></h3>
+                        <p>info@jksodawater.com<br>support@jksodawater.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>🕐 <span data-en="Business Hours" data-mr="व्यावसायिक तास">Business Hours</span></h3>
+                        <p><span data-en="Monday - Sunday: 10AM - 10PM" data-mr="सोमवार - रविवार: 10 AM - 10 PM">Monday - Sunday: 10AM - 10PM</span></p>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" data-en-placeholder="Your Name" data-mr-placeholder="आपले नाव" required>
+                    <input type="email" placeholder="Your Email" data-en-placeholder="Your Email" data-mr-placeholder="आपला ईमेल" required>
+                    <input type="text" placeholder="Subject" data-en-placeholder="Subject" data-mr-placeholder="विषय" required>
+                    <textarea placeholder="Your Message" data-en-placeholder="Your Message" data-mr-placeholder="आपला संदेश" rows="5" required></textarea>
+                    <button type="submit" class="submit-btn" data-en="Send Message" data-mr="संदेश पाठवा">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>JK Soda Water</h4>
+                    <p data-en="Your trusted source for premium cold drinks and beverages since 1994." data-mr="आपले विश्वसनीय प्रिमियम कोल्ड ड्रिंक्स आणि पेय पदार्थांचा स्रोत 1994 पासून.">Your trusted source for premium cold drinks and beverages since 1994.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-en="Quick Links" data-mr="द्रुत लिंक्स">Quick Links</h4>
+                    <ul>
+                        <li><a href="#home" data-en="Home" data-mr="होम">Home</a></li>
+                        <li><a href="#products" data-en="Products" data-mr="उत्पादने">Products</a></li>
+                        <li><a href="#about" data-en="About" data-mr="आमच्या बद्दल">About</a></li>
+                        <li><a href="#contact" data-en="Contact" data-mr="संपर्क">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-en="Follow Us" data-mr="आमचा अनुसरण करा">Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 JK Soda Water. <span data-en="All rights reserved." data-mr="सर्व अधिकार सुरक्षित.">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Admin Panel Modal -->
+    <div id="adminPanel" class="admin-panel-overlay" style="display: none;">
+        <div class="admin-panel-container">
+            <div class="admin-panel-header">
+                <h2 data-en="👤 Admin Dashboard" data-mr="👤 व्यवस्थापक डॅशबोर्ड">👤 Admin Dashboard</h2>
+                <button class="admin-close-btn" id="adminClose">&times;</button>
+            </div>
+
+            <div class="admin-panel-content">
+                <div class="admin-tabs">
+                    <button class="admin-tab-btn active" data-tab="orders" data-en="📦 Orders" data-mr="📦 ऑर्डर">📦 Orders</button>
+                    <button class="admin-tab-btn" data-tab="messages" data-en="💬 Messages" data-mr="💬 संदेश">💬 Messages</button>
+                    <button class="admin-tab-btn" data-tab="ratings" data-en="⭐ Ratings" data-mr="⭐ रेटिंग">⭐ Ratings</button>
+                    <button class="admin-tab-btn" data-tab="products" data-en="🍋 Products" data-mr="🍋 उत्पादने">🍋 Products</button>
+                    <button class="admin-tab-btn" data-tab="settings" data-en="⚙️ Settings" data-mr="⚙️ सेटिंग्स">⚙️ Settings</button>
+                </div>
+
+                <!-- Orders Tab -->
+                <div class="admin-tab-content active" id="orders-tab">
+                    <h3 data-en="Order Management" data-mr="ऑर्डर व्यवस्थापन">Order Management</h3>
+                    <div class="admin-stats">
+                        <div class="stat-item">
+                            <span class="stat-label" data-en="Total Orders:" data-mr="एकूण ऑर्डर:">Total Orders:</span>
+                            <span class="stat-value" id="totalOrders">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label" data-en="Pending:" data-mr="प्रलंबित:">Pending:</span>
+                            <span class="stat-value pending" id="pendingOrders">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label" data-en="Completed:" data-mr="पूर्ण:">Completed:</span>
+                            <span class="stat-value completed" id="completedOrders">0</span>
+                        </div>
+                    </div>
+                    <div id="ordersList" class="admin-list">
+                        <p class="empty-message" data-en="No orders yet" data-mr="अद्याप कोणते ऑर्डर नाहीत">No orders yet</p>
+                    </div>
+                </div>
+
+                <!-- Messages Tab -->
+                <div class="admin-tab-content" id="messages-tab">
+                    <h3 data-en="Contact Messages" data-mr="संपर्क संदेश">Contact Messages</h3>
+                    <div class="admin-stats">
+                        <div class="stat-item">
+                            <span class="stat-label" data-en="Total Messages:" data-mr="एकूण संदेश:">Total Messages:</span>
+                            <span class="stat-value" id="totalMessages">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label" data-en="Unread:" data-mr="अपठित:">Unread:</span>
+                            <span class="stat-value unread" id="unreadMessages">0</span>
+                        </div>
+                    </div>
+                    <div id="messagesList" class="admin-list">
+                        <p class="empty-message" data-en="No messages yet" data-mr="अद्याप कोणते संदेश नाहीत">No messages yet</p>
+                    </div>
+                </div>
+
+                <!-- Ratings Tab -->
+                <div class="admin-tab-content" id="ratings-tab">
+                    <h3 data-en="Customer Ratings & Reviews" data-mr="ग्राहक रेटिंग आणि समीक्षा">Customer Ratings & Reviews</h3>
+                    <div class="admin-stats">
+                        <div class="stat-item">
+                            <span class="stat-label" data-en="Total Reviews:" data-mr="एकूण समीक्षा:">Total Reviews:</span>
+                            <span class="stat-value" id="totalRatings">6</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label" data-en="Avg Rating:" data-mr="सरासरी रेटिंग:">Avg Rating:</span>
+                            <span class="stat-value" id="avgRating">4.8</span>
+                        </div>
+                    </div>
+                    <div id="ratingsList" class="admin-list">
+                        <div class="rating-item">
+                            <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text">Best soda water in the city! Fresh taste and excellent quality.</span>
+                            <span class="rating-user">- Rajesh Kumar (Limbu Soda)</span>
+                        </div>
+                        <div class="rating-item">
+                            <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text">Amazing taste! I've been a loyal customer for 5 years.</span>
+                            <span class="rating-user">- Priya Sharma (Mint Mojito)</span>
+                        </div>
+                        <div class="rating-item">
+                            <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text">Perfect for hot summer days. Love the refreshing taste and quick delivery!</span>
+                            <span class="rating-user">- Akshay Patel (Orange Soda)</span>
+                        </div>
+                        <div class="rating-item">
+                            <span class="rating-stars">⭐⭐⭐⭐</span>
+                            <span class="rating-text">Great products and friendly customer service. Will definitely order again!</span>
+                            <span class="rating-user">- Sneha Desai (Jira Soda)</span>
+                        </div>
+                        <div class="rating-item">
+                            <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text">Been using for years. The taste is consistent and quality never compromised!</span>
+                            <span class="rating-user">- Vikram Singh (Blue Berry Soda)</span>
+                        </div>
+                        <div class="rating-item">
+                            <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text">The Fuljar Soda is premium quality! Worth every rupee spent.</span>
+                            <span class="rating-user">- Anjali Gupta (Fuljar Soda)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Products Tab -->
+                <div class="admin-tab-content" id="products-tab">
+                    <h3 data-en="Product Management" data-mr="उत्पाद व्यवस्थापन">Product Management</h3>
+                    <div class="admin-stats">
+                        <div class="stat-item">
+                            <span class="stat-label" data-en="Total Products:" data-mr="एकूण उत्पादने:">Total Products:</span>
+                            <span class="stat-value">16</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label" data-en="In Stock:" data-mr="स्टॉकमध्ये:">In Stock:</span>
+                            <span class="stat-value">16</span>
+                        </div>
+                    </div>
+                    <button class="admin-action-btn" data-en="➕ Add New Product" data-mr="➕ नवीन उत्पाद जोडा" onclick="alert('Add new product feature coming soon!')">➕ Add New Product</button>
+                    <div id="productsList" class="admin-list">
+                        <div class="product-item">
+                            <span class="product-name">Limbu Soda (🍋)</span>
+                            <span class="product-price">₹20</span>
+                            <span class="product-status">Active</span>
+                        </div>
+                        <div class="product-item">
+                            <span class="product-name">Orange Soda (🍊)</span>
+                            <span class="product-price">₹20</span>
+                            <span class="product-status">Active</span>
+                        </div>
+                        <div class="product-item">
+                            <span class="product-name">Fuljar Soda (🌺)</span>
+                            <span class="product-price">₹25</span>
+                            <span class="product-status">Active</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Settings Tab -->
+                <div class="admin-tab-content" id="settings-tab">
+                    <h3 data-en="Admin Settings" data-mr="व्यवस्थापक सेटिंग्स">Admin Settings</h3>
+                    <div class="admin-settings">
+                        <div class="setting-item">
+                            <label data-en="Website Status:" data-mr="वेबसाइट स्थिती:">Website Status:</label>
+                            <select>
+                                <option data-en="🟢 Active" data-mr="🟢 सक्रिय">🟢 Active</option>
+                                <option data-en="🔴 Maintenance" data-mr="🔴 देखभाल">🔴 Maintenance</option>
+                            </select>
+                        </div>
+                        <div class="setting-item">
+                            <label data-en="Notification Email:" data-mr="सूचना ईमेल:">Notification Email:</label>
+                            <input type="email" placeholder="admin@jksodawater.com" value="admin@jksodawater.com">
+                        </div>
+                        <div class="setting-item">
+                            <label data-en="Enable Orders:" data-mr="ऑर्डर सक्षम करा:">Enable Orders:</label>
+                            <input type="checkbox" checked>
+                        </div>
+                        <div class="setting-item">
+                            <label data-en="Currency:" data-mr="चलन:">Currency:</label>
+                            <select>
+                                <option selected data-en="₹ INR" data-mr="₹ भारतीय रुपया">₹ INR</option>
+                                <option data-en="$ USD" data-mr="$ अमेरिकी डॉलर">$ USD</option>
+                                <option data-en="€ EUR" data-mr="€ युरो">€ EUR</option>
+                            </select>
+                        </div>
+                        <button class="admin-action-btn" data-en="💾 Save Settings" data-mr="💾 सेटिंग्स सहेजा" onclick="alert('Settings saved successfully!')">💾 Save Settings</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rating Modal -->
+    <div id="ratingModal" class="rating-modal-overlay" style="display: none;">
+        <div class="rating-modal-container">
+            <div class="rating-modal-header">
+                <h2>⭐ Rate <span id="ratingProductName">Product</span></h2>
+                <button class="rating-modal-close" onclick="window.closeRatingModal()" style="background: none; border: none; font-size: 2rem; cursor: pointer; color: var(--text-dark);">&times;</button>
+            </div>
+            
+            <form id="ratingForm" class="rating-form">
+                <div class="rating-form-group">
+                    <label data-en="Your Name:" data-mr="आपले नाव:">Your Name:</label>
+                    <input type="text" id="ratingName" placeholder="Enter your name" data-en="Enter your name" data-mr="आपले नाव दर्ज करा" required>
+                </div>
+                
+                <div class="rating-form-group">
+                    <label data-en="Your Rating:" data-mr="आपली रेटिंग:">Your Rating:</label>
+                    <div class="rating-stars-input">
+                        <button type="button" class="star-btn" data-rating="1" onclick="window.selectRating(1)">⭐</button>
+                        <button type="button" class="star-btn" data-rating="2" onclick="window.selectRating(2)">⭐</button>
+                        <button type="button" class="star-btn" data-rating="3" onclick="window.selectRating(3)">⭐</button>
+                        <button type="button" class="star-btn" data-rating="4" onclick="window.selectRating(4)">⭐</button>
+                        <button type="button" class="star-btn" data-rating="5" onclick="window.selectRating(5)">⭐</button>
+                    </div>
+                    <input type="hidden" id="selectedRating" value="0">
+                </div>
+                
+                <div class="rating-form-group">
+                    <label data-en="Your Review:" data-mr="आपली समीक्षा:">Your Review:</label>
+                    <textarea id="ratingReview" placeholder="Share your experience..." data-en="Share your experience..." data-mr="आपले अनुभव सामायिक करा..." style="width: 100%; padding: 0.8rem; border: 2px solid var(--border-color); border-radius: 6px; font-family: inherit; color: var(--text-dark); background: var(--bg-white); min-height: 100px; resize: vertical;"></textarea>
+                </div>
+                
+                <button type="submit" class="rating-submit-btn" data-en="Submit Rating" data-mr="रेटिंग सबमिट करा">Submit Rating</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
